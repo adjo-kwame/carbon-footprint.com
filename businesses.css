@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(107, 52, 28);
+}
+
+.nav{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(89, 86, 86);
+}
+
+ul{
+    margin-left: 200px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+}
+
+ul li a{
+    display: block;
+    color: white;
+    font-family: Deutsch Gothic;
+    font-size: 28px;
+    padding: 0 60px;
+    text-decoration: none;
+    margin-top: -15px;
+}
+
+.Logo {
+    position: absolute;
+    height: 80px;
+    width: 180px;
+    margin-top: 100px;
+
+}
+
+.home_icon{
+    height: 60px;
+    height: 60px;
+    margin-left: 5px;
+    transition: transform 0.8s; /*animation*/
+    float: left;
+    margin-top: 30px;
+}
+
+.home_icon:hover{
+    transform: scale(1.3);
+}
+
+
+.underline::after{
+    content: '';
+    display:block;
+    width: 0;
+    height: 3px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.underline:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+.citation{
+    width: 70px;
+    width: 70px;
+    transition: transform 0.8s; /*animation*/
+}
+
+.citation:hover{
+    transform: scale(1.3)
+}
+
+.contacts:hover{
+    transform: scale(1.3)
+}
+
+.contacts{
+    width: 70px;
+    width: 70px;
+    transition: transform 0.8s; /*animation*/
+}
+
+.solar{
+    width: 1300px;
+    height: 750px;
+    padding: 30px;
+    margin-left: 90px;
+}
+
+.text{
+    color: white;
+    font-size: 20px;
+    font-family: calibri light;
+    padding: 30px;
+    margin-left: 350px;
+}
+
+.h2{
+    color: #fff;
+    font-family: Cloister Black;
+    font-size: 30px;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+
+
+.p{
+    color: white;
+    font-family: calibri light;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+.h3{
+    color: #fff;
+    font-family: Cloister Black;
+    font-size: 40px;
+    margin-left: 400px;
+    padding: 10px;
+    text-decoration: underline;
+}
